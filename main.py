@@ -22,3 +22,10 @@ if __name__ == "__main__":
     # convert the labels from integers to vectors
     trainY = LabelBinarizer().fit_transform(trainY)
     testY = LabelBinarizer().fit_transform(testY)
+
+    # train the network
+    print("[INFO] training network...")
+    nn = NeuralNetwork([trainX.shape[1], 32, 16, 10])
+    print("[INFO] {}".format(nn))
+    nn.fit(trainX, trainY, epochs=1000)
+    
