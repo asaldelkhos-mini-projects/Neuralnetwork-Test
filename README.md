@@ -1,4 +1,8 @@
-# MNIST classifier
+<h1 align="center">
+    MNIST classifier
+</h1>
+
+<br />
 
 <p align="center">
     <img src=".github/readme/logo.png" width="300" alt="logo" />
@@ -7,22 +11,27 @@
 MNIST classifier with my Neural Network project.
 
 ## How to use?
+
 Clone into the project:
+
 ```shell
-git clone https://github.com/asaldelkhosh/mnist-classifier
+https://github.com/asaldelkhosh/neuralnetwork-test
 ```
 
 Install the requirements:
+
 ```shell
 pip install -r requirements.txt
 ```
 
 Start the project:
+
 ```shell
 python main.py
 ```
 
 ## Example
+
 ```shell
 [INFO] loading MNIST (sample) dataset...
 [INFO] samples: 1797, dim: 64
