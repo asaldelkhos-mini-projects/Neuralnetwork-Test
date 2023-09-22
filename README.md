@@ -1,9 +1,3 @@
-<h1 align="center">
-    MNIST classifier
-</h1>
-
-<br />
-
 <p align="center">
     <img src=".github/readme/logo.png" width="300" alt="logo" />
 </p>
